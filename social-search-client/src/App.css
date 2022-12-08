@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background: #ffd89b;
+  background: -webkit-linear-gradient(to right, #ffd89b, #19547b);
+  background: linear-gradient(to right, #ff8e80, #4a2480);
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0 auto;
+}
+
+.height {
+  height: 50vh;
+}
+
+.inputContainer {
+  width: 80%;
+}
+
+.search {
+  position: relative;
+  margin: 100px 0 10px;
+  width: 20%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-right: 0;
+  border-radius: 5px 0 0 5px;
+}
+
+.button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-left: 0;
+  border-radius: 0 5px 5px 0;
+}
+
+.dataContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin-top: 70px;
+}
+
+.card {
+  background-color: rgb(248, 248, 248);
+  width: 13%;
+  margin: 10px;
+  padding: 10px;
+  color: rgb(12, 1, 1);
+}
+.card.green {
+  background-color: rgb(19, 250, 161);
+  border-radius: 36px;
+}
+.card.red {
+  background-color: red;
+}
+
+.card > a {
+  color: #000;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.menu > li {
+  margin: 0 10px;
+  background: linear-gradient(to right, #c53a9d, #051f39);
+  border-radius: 15px;
+  width: 130px;
+}
+
+a {
+  color: #ff8e80;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
