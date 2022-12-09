@@ -32,6 +32,9 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
+      <div>
+        <p className="copyright">Copyright © Social Searh Website 2022</p>
+      </div>
     </>
   );
 }

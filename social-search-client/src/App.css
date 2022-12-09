@@ -129,3 +129,19 @@ a {
   font-size: 1.5em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.copyright {
+  background-color: aliceblue;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 30px;
+}
+
+.contact > i {
+  width: 50px;
+  height: 50pxgh;
+}
