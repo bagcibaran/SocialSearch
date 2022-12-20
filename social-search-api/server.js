@@ -66,8 +66,6 @@ server.get("/search", async (req, res) => {
       });
     }
   }
-  //onsole.log(resultList);
-  console.log("Doing");
   return res.json(resultList);
 });
 

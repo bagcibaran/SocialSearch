@@ -6,7 +6,16 @@ export default function Contact() {
           <div className="dataContainer">
             <div className="contact">
               <a href="https://www.instagram.com/bagcibaran/">
-                <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-128.png"></img>
+                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png"></img>
+              </a>
+              <a href="mailto:bagcibaran4@gmail.com">
+                <img src="https://cdn-icons-png.flaticon.com/512/542/542638.png"></img>
+              </a>
+              <a href="tel:+905326573360">
+                <img src="https://cdn-icons-png.flaticon.com/512/126/126509.png"></img>
+              </a>
+              <a href="https://www.linkedin.com/in/recep-baran-ba%C4%9Fc%C4%B1-8b3500170/">
+                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384088.png"></img>
               </a>
             </div>
           </div>

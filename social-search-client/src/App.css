@@ -120,11 +120,12 @@ body {
   margin: 0 10px;
   background: linear-gradient(to right, #c53a9d, #051f39);
   border-radius: 15px;
-  width: 130px;
+  width: 250px;
+  height: 30px;
 }
 
 a {
-  color: #ff8e80;
+  color: #ffffff;
   text-decoration: none;
   font-size: 1.5em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -141,7 +142,21 @@ a {
   height: 30px;
 }
 
-.contact > i {
-  width: 50px;
-  height: 50pxgh;
+.contact {
+  width: 70%;
+  margin-top: 350px;
+}
+
+.contact > a {
+  margin: 100px;
+}
+.contact > a > img {
+  width: 150px;
+  height: 150px;
+}
+
+.about {
+  width: 70%;
+  margin-top: 140px;
+  color: rgb(255, 254, 254);
 }
